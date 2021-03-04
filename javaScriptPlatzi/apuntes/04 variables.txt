@@ -1,0 +1,16 @@
+Tres formas de declarar una variable en JavaScript (JS).
+
+*var*: forma en la que se declaraban las variables antes de ECMAScript 5. 
+    - Tiene alcance global
+    - Se puede reinicializar: misma variable con diferentes valor, el último valor predomina.
+    - Reasignar: una variable inicializada a la que cambiamos su valor, sin usar *var*.
+
+*const*: para variables que su valor no será cambiado, modificado o actualizado.
+    - No se puede reinicializar.
+    - No se puede reasignar.
+    - No es inmutable.
+
+*let*: el estandar para ECMAScript 6.
+    - No se puede reinicializar.
+    - Se puede reasignar.
+    - Su contexto es de bloque.
